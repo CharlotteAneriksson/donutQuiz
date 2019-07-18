@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    background-color:#dfc7c1;
+    font-family: 'Playfair Display', sans-serif ;
+}
+
+.container{
+    width:60%;
+    margin: 0 auto;
+    background-color:#f2d5cd;
+    color:#84b4c8;
+}
