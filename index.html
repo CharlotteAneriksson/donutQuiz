@@ -9,17 +9,70 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" >
-    <script type="text/javascript" src="scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
 </head>
 <body>
     <div class="container text-center">
         <header>
-            <h1 class="text-capitalize">the unicornized javascript quiz</h1>
-            <p>Test your knowlage or your interest in <strong>Javascript fundamentals</strong></p>
+            <h1 class="text-capitalize">the donutified javascript quiz</h1>
+            <p>Lets test your knowledge or your interests in <strong>Javascript fundamentals</strong></p>
         </header>
-        <section>
-            
+   
+        <section class="questions">
+            <form id="quiz" name="quiz">
+                <ol>
+                    <li>
+                        Lets say we have an Array, <code>fruitBasket = [Pineapple, Banana, Blueberry];</code><br />
+                        Wish one of the following statements is right if we wanna add a value to the Array?<br />
+                    
+                        <input type="radio" id="multiAnswere" name="question1" value="unshift"/><span>.unshift</span><br />
+                        <input type="radio" id="multiAnswere" name="question1" value="pop"/><span>.pop</span><br />
+                        <input type="radio" id="multiAnswere" name="question1" value="unshiftPush"/><span>.unshift & .push</span><br />
+                        <input type="radio" id="multiAnswere" name="question1" value="add"/><span>.add</span><br />
+                    </li>
+                    <li>
+                        This down here is a boolean: <br />
+                        <code>var enjoyLife = true;</code><br />
+                        <code>console.log(enjoyLife);</code><br />
+                       
+                        <input type="radio" id="multiAnswere" name="question2" value="!true"/><span>!true</span><br />
+                        <input type="radio" id="multiAnswere" name="question2" value="!false"/><span>!false</span><br />
+                        <input type="radio" id="multiAnswere" name="question2" value="false"/><span>false</span><br />
+                        <input type="radio" id="multiAnswere" name="question2" value="null"/><span>null</span><br />
+                    </li>
+                    <li>
+                        What will the output be if we put this into the console?<br />
+                        <code>console.log(Math.ceil(7.004));</code><br />
+                       
+                       <input type="radio" id="multiAnswere" name="question3" value="7"/><span>7</span><br />
+                       <input type="radio" id="multiAnswere" name="question3" value="8"/><span>8</span><br />
+                       <input type="radio" id="multiAnswere" name="question3" value="7.1"/><span>7.1</span><br />
+                       <input type="radio" id="multiAnswere" name="question3" value="7.0"/><span>7.0</span><br />
+                    </li>
+                    <li>
+                        Say that we have a really long number with lots of decimals, what can we use which returns the integer part of that number?<br />
+                       
+                       <input type="radio" id="multiAnswere" name="question4" value="Math.short"/><span>Math.short&#40; &#41;</span><br />
+                       <input type="radio" id="multiAnswere" name="question4" value="Math.int"/><span>Math.int&#40; &#41;</span><br />
+                       <input type="radio" id="multiAnswere" name="question4" value="Math.round"/><span>Math.round&#40; &#41;</span><br />
+                       <input type="radio" id="multiAnswere" name="question4" value="Math.trunc"/><span>Math.trunc&#40; &#41;</span><br />
+                    </li>
+                    <li>
+                        What does this symbol return &#37; in JavaScript code?<br />
+                       
+                       <input type="radio" id="multiAnswere" name="question4" value="percentage"/><span></span>Percentage of a value</span><br />
+                       <input type="radio" id="multiAnswere" name="question4" value="remainder"/><span></span>The remainder of two integers</span><br />
+                       <input type="radio" id="multiAnswere" name="question4" value="division"/><span></span>Results of a division</span><br />
+                       <input type="radio" id="multiAnswere" name="question4" value="fahrenheit"/><span></span>The temperature in fahrenheit</span><br />
+                    </li>
+                </ol>
+                
+                
+                
+                    
+                
+            </form>
         </section>
-    </div>
+    </div> 
 </body>
 </html>

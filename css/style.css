@@ -12,3 +12,12 @@ body{
     background-color:#f2d5cd;
     color:#84b4c8;
 }
+ol li input, ol li span{
+    float:left;
+}
+ol li input{
+    margin:6px 6px 0 0;
+}
+ol li{
+    text-align:left;
+}
