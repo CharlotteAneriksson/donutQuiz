@@ -37,9 +37,6 @@ ol li{
 }
 #submit-results{
     visibility: hidden;
-    position: relative;
-    bottom: 238px;
-    left: 213px;
     color:#333;
     font-size:20px;
 }
@@ -47,4 +44,8 @@ ol li{
 #score-in-donuts{
     width:200px;
     height:75px;
+}
+#startOver{
+    display:block;
+    margin:25px auto 25px auto;
 }
