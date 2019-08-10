@@ -52,26 +52,28 @@
                     <li>
                         Say that we have a really long number with lots of decimals, what can we use which returns the integer part of that number?<br />
                        
-                       <input type="radio" id="multiAnswere" name="question4" value="Math.short"/><span>Math.short&#40; &#41;</span><br />
-                       <input type="radio" id="multiAnswere" name="question4" value="Math.int"/><span>Math.int&#40; &#41;</span><br />
-                       <input type="radio" id="multiAnswere" name="question4" value="Math.round"/><span>Math.round&#40; &#41;</span><br />
-                       <input type="radio" id="multiAnswere" name="question4" value="Math.trunc"/><span>Math.trunc&#40; &#41;</span><br />
+                       <input type="radio" id="multiAnswere" name="question4" value="short"/><span>Math.short&#40; &#41;</span><br />
+                       <input type="radio" id="multiAnswere" name="question4" value="int"/><span>Math.int&#40; &#41;</span><br />
+                       <input type="radio" id="multiAnswere" name="question4" value="round"/><span>Math.round&#40; &#41;</span><br />
+                       <input type="radio" id="multiAnswere" name="question4" value="trunc"/><span>Math.trunc&#40; &#41;</span><br />
                     </li>
                     <li>
                         What does this symbol return &#37; in JavaScript code?<br />
                        
-                       <input type="radio" id="multiAnswere" name="question4" value="percentage"/><span></span>Percentage of a value</span><br />
-                       <input type="radio" id="multiAnswere" name="question4" value="remainder"/><span></span>The remainder of two integers</span><br />
-                       <input type="radio" id="multiAnswere" name="question4" value="division"/><span></span>Results of a division</span><br />
-                       <input type="radio" id="multiAnswere" name="question4" value="fahrenheit"/><span></span>The temperature in fahrenheit</span><br />
+                       <input type="radio" id="multiAnswere" name="question5" value="percentage"/><span></span>Percentage of a value</span><br />
+                       <input type="radio" id="multiAnswere" name="question5" value="remainder"/><span></span>The remainder of two integers</span><br />
+                       <input type="radio" id="multiAnswere" name="question5" value="division"/><span></span>Results of a division</span><br />
+                       <input type="radio" id="multiAnswere" name="question5" value="fahrenheit"/><span></span>The temperature in fahrenheit</span><br />
                     </li>
                 </ol>
-                
-                
-                
                     
-                
+                <button type="button" id="submit" class="btn btn-light btn-sm" onclick="check();">Submit</button>
             </form>
+            <div id="submit-results">
+                <p id="correct-score"></p>
+                <p id="messege"></p>
+                <img id="score-in-donuts">
+            </div>
         </section>
     </div> 
 </body>

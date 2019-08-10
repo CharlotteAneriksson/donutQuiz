@@ -5,19 +5,46 @@ body{
     background-color:#dfc7c1;
     font-family: 'Playfair Display', sans-serif ;
 }
-
+header{
+    padding:25px;
+}
 .container{
-    width:60%;
+    width:90%;
     margin: 0 auto;
     background-color:#f2d5cd;
     color:#84b4c8;
 }
+    /*     QUESTION FORM    */
+form ol{
+    /*color:#619196;*/
+}
+ /* Get the questionlist to float left */
 ol li input, ol li span{
     float:left;
 }
+ /* Align the radiobutton with the answere */
 ol li input{
     margin:6px 6px 0 0;
 }
+ /* Give each question some space */
 ol li{
     text-align:left;
+    padding:20px;
+}
+
+#submit{
+    margin:25px 0 25px 0;
+}
+#submit-results{
+    visibility: hidden;
+    position: relative;
+    bottom: 238px;
+    left: 213px;
+    color:#333;
+    font-size:20px;
+}
+
+#score-in-donuts{
+    width:200px;
+    height:75px;
 }
