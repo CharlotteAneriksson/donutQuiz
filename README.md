@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # The Donut Quiz
 
 ### What is this?
