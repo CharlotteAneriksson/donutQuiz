@@ -19,3 +19,7 @@ The practice contains Html, Css, Bootstrap, Javascript, Git, GitHub, AWS cloud 9
 6. Git - Is a versioncontrolsystem that helps you for example to upload and download your work to/from GitHub.
 7. AWS cloud 9 - Cloudbased IDE 
 8. Adobe illustrator - Software application for creating drawings, illustrations, and artwork in vectorGraphics.
+
+
+#### Take the Quiz and test your JS knowledge, and guys, have fun !
+https://charlotteaneriksson.github.io/donutQuiz/
