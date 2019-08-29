@@ -47,7 +47,6 @@ function check(){
     document.getElementById("score-in-donuts").src = donuts[correct];
    
    
-   //Empty inputs
-   
+
 }
 
