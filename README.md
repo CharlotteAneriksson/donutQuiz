@@ -23,3 +23,7 @@ The practice contains Html, Css, Bootstrap, Javascript, Git, GitHub, AWS cloud 9
 
 #### Take the Quiz and test your JS knowledge, and guys, have fun !
 https://charlotteaneriksson.github.io/donutQuiz/
+
+
+
+© All illustrations created by Charlotte Aneriksson
